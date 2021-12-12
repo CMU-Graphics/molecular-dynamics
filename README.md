@@ -4,9 +4,13 @@
 
 Skeleton code and visualization for a basic molecular dynamics simulator, provided as part of the 15-462/662 final exam at CMU.  Visualization via [Polyscope](http://polyscope.run/).
 
-**IMPORTANT**: You do _not_ have to build and run this version of the code for the exam (which can be more difficult to compile, due to the visualization routines).  It is provided "just for fun."  See Piazza for the official exam code.
+The code will build and run as-is, but to make the simulator work you will have to implement the routines marked `TODO` in `src/MolecularDynamics.cpp`.  The correct behavior for these routines is described in the exam found in `15462_Final_FA2021.pdf`.
 
-**NOTE**: To use this code, you should copy your solution _routines_ into `src/MolecularDynamics.cpp`.  Copying in the whole file will not work, since this version of the code has additional routines (such as `Molecule::write()`) that are not present in the official exam code.
+Several test files can be found in the `data/` subdirectory.
+
+Note that you do _not_ have to build and run this version of the code for the exam (which can be more difficult to compile, due to the visualization routines).  It is provided "just for fun."  See Piazza for the official exam code.
+
+**Disclaimer**: _This simulator is an extremely simplified version of a real molecular dynamics simulator, intended purely for pedagogical purposes.  It should not be used for serious scientific work._
 
 ### Build the code
 
