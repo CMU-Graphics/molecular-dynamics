@@ -183,8 +183,9 @@ void Molecule::addBendForce()
 // (both Coulomb and Lennard-Jones) to the overall force
 void Molecule::addNonlocalForce()
 {
-   // TODO Compute the bend forces due to each corner, and
-   // add these forces to each atom's total force (Atom::force).
+   // TODO Compute the nonlocal forces due to each pair of
+   // distinct atoms, and add these forces to each atom's
+   // total force (Atom::force).
    //
    // Tips:
    //    - Make sure not to overwrite the force!  I.e., make
